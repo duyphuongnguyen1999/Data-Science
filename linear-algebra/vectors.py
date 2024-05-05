@@ -74,6 +74,6 @@ def distance(v: Vector, w: Vector) -> float:
         v = (v_1  v_2  ...  v_n)
         w = (w_1  w_2  ...  w_n)
     Distance between 2 vectors is computed as below:
-        distance = math.sqrt((v_1 - w_1)**2 + (v_2 - w_2)**2 +... (v_n - w_n)**2)
+    distance = math.sqrt((v_1 - w_1)**2 + (v_2 - w_2)**2 +...+ (v_n - w_n)**2)
     """
     return math.sqrt(squared_distance(v, w))
